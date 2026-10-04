@@ -70,6 +70,7 @@
 .site-header { background: var(--background); position: relative; z-index: 5; }
 .header-inner { min-height: 57px; display: flex; align-items: center; gap: 24px; }
 .wordmark { color: var(--primary); font-size: 28px; font-weight: 800; line-height: 1; white-space: nowrap; }
+.wordmark-suffix { font-weight: 500; }
 .primary-nav { display: flex; align-items: center; gap: 24px; }
 .primary-nav a { font-size: 11px; font-weight: 800; display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
 .header-actions { margin-left: auto; display: flex; align-items: center; gap: 26px; }
