@@ -63,7 +63,7 @@ function HelpCenter() {
             <a href={officialSite}>Car rentals</a>
           </nav>
           <div className="header-actions">
-            <span className="currency"><span className="flag" aria-label="United States">🇺🇸</span> USD <ChevronDown size={12} /></span>
+            <span className="currency"><span className="flag" role="img" aria-label="United States"><span /></span> USD <ChevronDown size={12} /></span>
             <Button variant="careOutline" className="help-center-button" onClick={() => { searchInputRef.current?.focus(); window.scrollTo({ top: 0, behavior: "smooth" }); }}><CircleHelp /> Help Center</Button>
             <Button variant="careNav" size="icon" aria-label={menuOpen ? "Close navigation" : "Open navigation"} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</Button>
           </div>
