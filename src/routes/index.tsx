@@ -55,7 +55,7 @@ function HelpCenter() {
     <div className="help-center">
       <header className="site-header">
         <div className="page-width header-inner">
-          <a href={officialSite} className="wordmark" aria-label="Stayforlong home">stayforlong</a>
+          <a href={officialSite} className="wordmark" aria-label="Stayforlong Bookings home">stayforlong <span className="wordmark-suffix">Bookings</span></a>
           <nav className="primary-nav" aria-label="Main navigation">
             <a href={officialSite}>Stays <ChevronDown size={13} /></a>
             <a href={officialSite}>Flight + Hotel</a>
@@ -132,7 +132,7 @@ function HelpCenter() {
 
       <footer className="site-footer">
         <div className="page-width footer-inner">
-          <a href={officialSite} className="wordmark footer-wordmark" aria-label="Stayforlong home">stayforlong</a>
+          <a href={officialSite} className="wordmark footer-wordmark" aria-label="Stayforlong Bookings home">stayforlong <span className="wordmark-suffix">Bookings</span></a>
           <nav className="footer-links" aria-label="Footer navigation"><div><a href={officialSite}>About us</a><a href="#hero-title">Help Center</a><a href="#support">Contact us</a></div><div><a href={officialSite}>Privacy policy</a><a href={officialSite}>Terms & conditions</a></div></nav>
           <div className="footer-social"><div className="social-links"><a href="https://www.facebook.com/stayforlong" aria-label="Facebook" target="_blank" rel="noreferrer"><span className="facebook-symbol">f</span></a><a href="https://www.instagram.com/stayforlong/" aria-label="Instagram" target="_blank" rel="noreferrer"><Instagram /></a><a href="https://x.com/stayforlong" aria-label="X" target="_blank" rel="noreferrer"><span className="x-symbol">𝕏</span></a><a href="https://www.youtube.com/@stayforlong" aria-label="YouTube" target="_blank" rel="noreferrer"><Youtube /></a></div><p>More stays. More stories. <Heart size={20} fill="currentColor" /></p></div>
         </div>
