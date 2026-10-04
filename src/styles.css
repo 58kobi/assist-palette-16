@@ -201,7 +201,8 @@
 @media (max-width: 700px) {
   .page-width { width: calc(100% - 40px); }
   .header-inner { min-height: 66px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; }
-  .wordmark { font-size: 27px; }
+  .wordmark { font-size: 24px; white-space: normal; line-height: 1.1; max-width: 100%; }
+  .wordmark-suffix { display: block; }
   .primary-nav { display: none; }
   .header-actions { margin-left: 0; gap: 10px; }
   .help-center-button { padding: 8px 12px; font-size: 11px; height: 34px; }
